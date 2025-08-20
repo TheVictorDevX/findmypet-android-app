@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:state_checked="true">
+        <shape android:shape="rectangle">
+            <solid android:color="#A25EF7"/> <!-- 🌟 Your custom selected oval background color -->
+            <corners android:radius="16dp"/> <!-- Make it rounded -->
+        </shape>
+    </item>
+    <item>
+        <color android:color="@android:color/transparent"/> <!-- Unselected = no background -->
+    </item>
+</selector>

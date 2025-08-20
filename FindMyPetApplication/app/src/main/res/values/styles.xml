@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="Title">
+        <item name="android:textColor">@color/colorPrimary</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textSize">34sp</item>
+    </style>
+    <style name="DefaultText">
+        <item name="android:textSize">16sp</item>
+    </style>
+    <style name="BottomNavBarSelectedColor" parent="Widget.Material3.BottomNavigationView.ActiveIndicator">
+        <item name="android:color">@color/colorPrimarySelected</item>
+    </style>
+</resources>
